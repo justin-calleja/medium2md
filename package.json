@@ -1,0 +1,23 @@
+{
+  "name": "medium2md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "hast-util-to-mdast": "^1.1.2",
+    "rehype": "^4.0.0",
+    "remark": "^7.0.1",
+    "request": "^2.81.0",
+    "unist-util-visit": "^1.1.1"
+  }
+}
